@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>KFUEIT -  Student Portal (Single File)</title>
@@ -572,3 +573,39 @@
 
 </body>
 </html>
+/* ----- MOBILE RESPONSIVE DESIGN ----- */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .menu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu-item {
+    width: 45%; /* har row me 2 buttons */
+    margin: 5px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo-box {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
