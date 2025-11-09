@@ -108,6 +108,43 @@
     .menu-row{overflow-x:auto}
     .btn{min-width:45%}
   }
+  /* ----- MOBILE RESPONSIVE DESIGN ----- */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .menu-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .menu-item {
+    width: 45%; /* har row me 2 buttons */
+    margin: 5px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo-box {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -573,39 +610,3 @@
 
 </body>
 </html>
-/* ----- MOBILE RESPONSIVE DESIGN ----- */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-    padding: 5px;
-  }
-
-  .card {
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-  }
-
-  .menu-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .menu-item {
-    width: 45%; /* har row me 2 buttons */
-    margin: 5px;
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .logo-box {
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
