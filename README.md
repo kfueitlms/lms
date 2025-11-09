@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -130,7 +128,15 @@
   <div class="topbar">
     <div class="brand">
 
-      <div><img src="images-removebg-preview.png"class="logo-box"style="width:60px; height:60px;"
+      <div class="brand">
+  <div>
+    <img src="images-removebg-preview.png" class="logo-box" style="width:60px; height:60px;">
+  </div>
+  <div>
+    <div style="font-size:12px;opacity:0.9">Kh. Fareed University of Engineering & IT</div>
+  </div>
+</div>
+
       <div>
         
         <div style="font-size:12px;opacity:0.9">Kh. Fareed University of Engineering & IT</div>
